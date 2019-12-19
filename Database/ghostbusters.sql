@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Erstellungszeit: 16. Dez 2019 um 14:05
+-- Erstellungszeit: 19. Dez 2019 um 14:36
 -- Server-Version: 10.1.37-MariaDB
 -- PHP-Version: 7.3.0
 
@@ -21,6 +21,8 @@ SET time_zone = "+00:00";
 --
 -- Datenbank: `ghostbusters`
 --
+CREATE DATABASE IF NOT EXISTS `ghostbusters` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+USE `ghostbusters`;
 
 -- --------------------------------------------------------
 
