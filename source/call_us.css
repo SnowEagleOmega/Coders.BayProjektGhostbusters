@@ -1,0 +1,89 @@
+.navbar{
+  background-color: rgba(0, 0, 0, 0.3);
+
+}
+
+body{
+  background-image: url('../img/stripes.jpg');
+  background-color: red;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+p {
+  font-family: 'Fira Code', monospace;
+}
+
+form {
+  text-align: center;
+  justify-content: center;
+  color: #FFFFFF;
+
+}
+
+
+
+
+var_dump{
+  color: green;
+}
+
+
+.ghdsc {
+  border: 1px solid blue;
+  color: #FFFFFF;
+}
+
+
+
+legend{
+  font-family : Arial, sans-serif;
+  font-size: 1.3em;
+  font-weight:bold;
+  color:#333;
+}
+
+label {
+  font-family : Arial, sans-serif;
+  font-size:0.8em;
+  font-weight: bold;
+}
+
+::placeholder {
+  background-color: #765439;
+}
+
+input{
+  background-color: rgba(150, 150, 150, 0.1);
+  border: 0px;
+  color: #FF0000;
+  font-size: 74%;
+}
+
+
+
+textarea{
+  background-color: rgba(150, 150, 150, 0.1);
+  border: 0px;
+  color: #BB0000;
+}
+
+button{
+  background-color: rgba(255, 0, 0, 0);
+  border: 0px;
+  /* padding: 2rem; */
+  height: 150px;
+  width: 150px;
+}
+
+
+.resbut {
+   width: 80%;
+   height: auto;
+   margin: -9rem;
+}
+
+.button5 {
+  border-radius: 100%;
+}

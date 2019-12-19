@@ -1,0 +1,64 @@
+body {
+background-image: url('../img/uexq0jj.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+
+p {
+  font-family: 'Fira Code', monospace;
+}
+
+.container {
+  color: #FFFFFF;
+}
+
+.bild {
+    position: relative;
+    display: block;
+    margin-bottom: 30px;
+    width: 100%
+}
+.overlay {
+    position: absolute;
+    transition: all .9s ease;
+    opacity: 0;
+    background: rgb(0, 0, 0, 0.4);
+}
+
+.bild:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-family: sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}
+
+.overlayBottom {
+    width: 100%;
+    height: 0%;
+    bottom: 0;
+    left: 0;
+}
+.bild:hover .overlayBottom {
+    height:  100%;
+}
+.collapse {
+  margin-left: 1rem;
+  color: #FFFFFF;
+  background-color: rgba(044, 044, 044,  0.5);
+}
+
+.img-thumbnail {
+background-color: #ffffb3;
+border: 3px dotted black;
+display: block;
+height: auto;
+max-width: 100%
+}

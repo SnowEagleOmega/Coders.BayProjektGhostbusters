@@ -1,0 +1,42 @@
+.plot {
+  display: block;
+  margin-left: 18rem;
+  margin-right: 18rem;
+  padding: 1rem;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+}
+
+h1{
+  font-family: 'Nosifer', cursive;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 1rem;
+}
+
+h4, ul, p{
+  color: #FFFFFF;
+}
+
+hr{
+  color: #293045
+}
+
+
+body {
+  background-image: url('../img/blackmr.jpg');
+  background-size: contain;
+}
+
+.listing{
+  background-color: rgba(50, 0, 0, 0.5);
+  text-align: center;
+}
+
+.nobull{
+  list-style-type: none;
+}

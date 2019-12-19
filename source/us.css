@@ -1,0 +1,67 @@
+body {
+  background-image: url('../img/866685bdd4bbc516ec1a13c956d4d7bf.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+	background-position: center;
+
+}
+
+h1 {
+  font-family: 'Creepster', cursive;
+  font-size: 5rem !important;
+	color: pink;
+}
+
+.stuff{
+	display: flex;
+  align-items: center;
+  justify-content: center;
+	flex-direction: column;
+}
+
+.bild {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+
+.overlay {
+    position: absolute;
+    transition: all .9s ease;
+    opacity: 0;
+    background: rgba(0, 0, 0, 0.4);
+		background-image: url('../img/slime_batzen.gif');
+		background-size: cover;
+		background-position: center;
+		border-radius: 100%;
+
+}
+
+
+
+.bild:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-family: sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+
+}
+
+.overlayKlappen {
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    transform: scaleY(0);
+}
+.bild:hover .overlayKlappen {
+    transform: scaleY(1);
+}
